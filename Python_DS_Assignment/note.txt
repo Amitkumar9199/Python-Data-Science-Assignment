@@ -1,0 +1,8 @@
+python setup.py sdist bdist_wheel
+cd dist
+pip install (wheel file)
+python 
+import package_name
+package_name.(fn/class)
+https://www.youtube.com/watch?v=RiWqigGW9cA  // this one is fine//
+https://www.youtube.com/watch?v=JSYQ9wuR1Xo

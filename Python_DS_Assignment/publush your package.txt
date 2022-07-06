@@ -1,0 +1,25 @@
+https://www.youtube.com/watch?v=JSYQ9wuR1Xo&t=7s
+https://github.com/Hritik21/Pypi-Package/blob/main/BUILD%20YOUR%20FIRST%20PYPI%20PACKAGE.pdf
+
+
+//test your package
+cd package_name
+python -i __init__.py
+
+//cd ..  now install
+pip install setuptools wheel
+pip install twine
+pip install pip install tqdm
+pip install 
+
+//create package
+python setup.py bdist_wheel
+
+//register over python organisation
+pypi.org
+
+//upload package
+twine upload --repository-url https://upload.pypi.org/legacy/ dist/*
+//provide username and password
+
+pip install package_name
